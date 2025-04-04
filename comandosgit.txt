@@ -1,0 +1,9 @@
+git init 
+git config user.name "Thiago Augusto Teixeira Ferreira"
+git config user.email "thiagoapcam@gmail.com"
+echo "Thiago Augusto Teixeira Ferreira - 20242158060001 > meu_dados.txt"
+git add meu_dados.txt
+git commit -m "Adicionando meu arquivo de nome e matricula"
+git remote add origin https://github.com/pixelzera/curso-git-ead-ifrn.git
+git push -u origin master
+nano comandos_git.txt
